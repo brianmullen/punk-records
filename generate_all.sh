@@ -11,5 +11,5 @@ fi
 # Run the build script for each language
 for lang in english french chinese-hongkong chinese-taiwan english-asia thai; do
     echo "Generating data for language: $lang"
-    python build_punk_records.py --language $lang --out-dir . --split-per-card
+    python3 build_punk_records.py --language $lang --out-dir . --split-per-card
 done
